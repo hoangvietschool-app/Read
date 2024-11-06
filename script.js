@@ -74,6 +74,7 @@ function handleFileSelect() {
   }
 }
 
+
 function consoleDisplayJson(jsonData) {
   // const jsonOutput = document.getElementById('jsonOutput');
   // jsonOutput.textContent = JSON.stringify(jsonData, null, 2); // Format JSON with indentation
