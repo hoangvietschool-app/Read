@@ -1,0 +1,61 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Navbar container */
+  .navbar {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Logo */
+  .navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  /* Navbar links */
+  .navbar .nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 1em;
+  }
+
+  .navbar .nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5em;
+    transition: background-color 0.3s;
+  }
+
+  /* Hover effect */
+  .navbar .nav-links a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+
+
+  /* Style for the import button */
+  #importButton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  #importButton:hover {
+    background-color: #45a049;
+  }
+  
